@@ -1,0 +1,77 @@
+========================================
+QUICK START - Deploy to GitHub Pages
+========================================
+
+Your Username: moizalpha
+Repository: physical-ai-capstone
+Site URL: https://moizalpha.github.io/physical-ai-capstone/
+
+========================================
+STEP 1: Create GitHub Repository
+========================================
+
+1. Go to: https://github.com/new
+2. Repository name: physical-ai-capstone
+3. Make it PUBLIC
+4. DON'T check any boxes (no README, no .gitignore)
+5. Click "Create repository"
+
+========================================
+STEP 2: Deploy (Choose ONE method)
+========================================
+
+METHOD A - Automatic (Windows):
+--------------------------------
+Just double-click: deploy.bat
+
+It will automatically:
+- Initialize git
+- Commit your files
+- Push to GitHub
+- Deploy to GitHub Pages
+
+
+METHOD B - Manual Commands:
+---------------------------
+Open PowerShell or Git Bash in this folder and run:
+
+git init
+git add .
+git commit -m "Initial commit"
+git remote add origin https://github.com/moizalpha/physical-ai-capstone.git
+git branch -M main
+git push -u origin main
+npm run deploy
+
+========================================
+STEP 3: Wait 2-5 Minutes
+========================================
+
+Your site will be live at:
+https://moizalpha.github.io/physical-ai-capstone/
+
+========================================
+TROUBLESHOOTING
+========================================
+
+If you get authentication errors:
+1. Make sure you're logged into GitHub
+2. Use GitHub Desktop if you prefer GUI
+3. Or use Personal Access Token for authentication
+
+See DEPLOY.md for detailed instructions.
+
+========================================
+UPDATING YOUR SITE
+========================================
+
+After making changes:
+1. Run deploy.bat again
+OR
+2. Run these commands:
+   git add .
+   git commit -m "Update"
+   git push
+   npm run deploy
+
+========================================
