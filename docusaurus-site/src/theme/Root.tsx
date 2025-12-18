@@ -7,10 +7,14 @@ import React from 'react';
 import RAGChatbot from '../components/RAGChatbot';
 
 export default function Root({ children }) {
+  // Default to localhost for development
+  // Update this URL when you deploy your backend
+  const apiUrl = 'http://localhost:8000';
+
   return (
     <>
       {children}
-      <RAGChatbot apiUrl={process.env.REACT_APP_API_URL || 'http://localhost:8000'} />
+      <RAGChatbot apiUrl={apiUrl} />
     </>
   );
 }
