@@ -80,7 +80,6 @@ cd "D:\physical ai book\physical-ai\docusaurus-site"
 git add .
 git commit -m "Update content"
 git push origin main
-
 # Deploy to GitHub Pages
 USE_SSH=false GIT_USER=moizalpha npm run deploy
 ```
