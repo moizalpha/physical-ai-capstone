@@ -1,5 +1,5 @@
 {
-  "buildCommand": "cd docs && npm run build",
-  "outputDirectory": "docs/build",
-  "installCommand": "cd docs && npm install"
+  "buildCommand": "cd docusaurus-site && npm run build",
+  "outputDirectory": "docusaurus-site/build",
+  "installCommand": "cd docusaurus-site && npm install"
 }
