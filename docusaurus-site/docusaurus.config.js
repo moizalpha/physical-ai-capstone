@@ -14,7 +14,7 @@ const config = {
   // Set the production url of your site here
   url: 'https://moizalpha.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
-  baseUrl: '/physical-ai-capstone/',
+  baseUrl: '/',
 
   // GitHub pages deployment config.
   organizationName: 'moizalpha', // Usually your GitHub org/user name.
